@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{stfloats}
+\title{Internship Report}
+\author{Mofifoluwa Ipadeola Akinwande}
+\date{June 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+The semiconductor industry is ever growing and millions of euros are being invested into this industry each year as the need for more compute and other things increases. Optimization and efficiency are some of the major goals leading semiconductor companies strive to achieve as they not only save cost for the companies and customers, but they also have an impact on the environment. In order to reach this goal, it is important that all processes, from the developments of chips, to creation and packaging of modules for different use cases, are done with minimal margin of error. One of the processes used in packages these modules is Ultrasonic welding, which is a welding technique that joins materials using high-frequency vibrations(change).(In the context of semiconductor modules, it is called ultrasonic wire bonding). To ensure that welds past, present and future are up to standards, efficient data collation through pipelinng and processing like looking for anomalies are important in order to ensure the highest product quality and to maintain process consistency.
+
+During my Internship as a Process data analyzer in the Ultrasonic Bonding \& Welding department at Infineon Technologies AG, I had the opportunity to learn important data sorting techniques using some important python libraries like NumPy and Pandas, using DTW and with the aid of some Machine learning algorithms, like Isolation forest and DBSCAN, create scripts and tools that helped in detecting anomalies and root cause analysis of why some processes were worse than the others. 
+I was also able to apply many tools gotten during my course of study, applying myself practically in the labs and clean rooms etc.
+This report details all these and some more. It is divided into the following sections.
+
+\subsection{About Infineon}
+Infineon Technologies AG is one of the world`s leading semiconductor companies, with a focus on developing power and IoT systems. It was founded in 1999 initially as a spin-off from Siemens. With over 58,000 employees and 15 manufacturing locations scattered around the world, they present themselves as major players not only in Europe, but worldwide. Through their systems their major goals are "Decarbonization" and "Digitalization" which hammers on their want to create systems that are not only powerful and optimal, but also sustainable. The current CEO is John Hanbeck and the headquarters sits in Regensburg, Bavaria.
+
+\subsection{Objectives}
+Before the commencement of my Internship, to give a broad guideline and path to follow over the course of 16 weeks, it was important to define clear and acheivable objectives. With the help of my Internship supervisor at the company, these were some of the objectives highlighted.
+\begin{itemize}
+    \item Identification of process related abnormalities
+    \item Explore and define methods for detecting anomalies using mathematical analysis or machine learning.
+    \item Define parameter thresholds that trigger automated actions when limits are ecceeded.
+\end{itemize}
+
+\section{Background}
+The global impact of climate change is evident, and one of the major contributors for this is the greenhouse gas emission from the automotive industry. One of the ways to combat this phenomenon and reduce carbon footprints is through the electrification of vehicles which has rapidly trasnformed automotive design.
+
+In order to electrify vehicles however, a power module, developed at most leading semiconductor companies plays a major role. In the context of automotive applications, power modules are responsible for efficient conversion and control of energy flow between the battery, the motor and other components[infineon reference]. They are however not limited to use on automotive applications and their effects are far reaching including on high-speed trains etc etc.
+
+There are several methods and processes needed in order to package these modules. 
+To form electrical interconnections between all components of the semiconductor die (for example the gate, drain and source terminals in MOSFET based designs) and the copper substrate, a process known as ultrasonic wire bonding in which high-frequency mechanical vibrations are applied to join tiny wires to the semiconductor die with minimal thermal impact, is done.
+Another method used to form electrical connections, is to use rivets. While it uses similar ultrasonic techniques, it has been shown to yield better results in terms of reliability, flexibility and positional accuracy compared to traditional soldering methods. 
+These advanced packaging technique are critical for mianitaing the performance of these modules not only in the current technology landscape, but also in the future where the demand on them would increase.
+
+\begin{figure}[!t]
+    \centering
+    \includegraphics[width=0.5\linewidth]{OV.JPG}
+    \caption{An exmaple of a power module developed at Infineon for the automotive industry}
+    \label{fig:enter-label}
+\end{figure}
+To ensure good welds it is important that each physical parameter is tuned as finely as possible from the results of different analytical methods like statistical, and quality management techniques like power cycling and tst. After the parameters have been tuned and have been certified to produce good welds, then mass production of these modules can begin.
+To make sure, however, that the final proceess is consistent and the results of the welds stay as expected, a process data analyzer is useful. Using different techniques. he
+
+
+
+\end{document}
+
